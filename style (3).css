@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: rgba(32, 3, 78, 0.075);
+    transition: 0.2s;
+}
+.optin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    height: 400px;
+    margin-inline: auto;
+    margin-top: 110px; 
+}
+.optin .left {
+    width: 550px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.optin .left .p1 {
+    font-size: 50px;
+    font-family: fantasy;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color: rgb(71, 90, 255);
+}
+.optin .left .p2 {
+    font-size: 25px;
+}
+.optin .word2 {
+    font-size: 30px;
+}
+.optin .right {
+    width: 400px;
+    height: 400px;
+}
+.right-top {
+    padding: 17px;
+    height: 350;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.103);
+}
+.right-top a {
+    text-decoration: none;
+    color: rgb(71, 90, 255);
+    font-size: 13px;
+    display: grid;
+    place-items: center;
+    margin-block: 10px;
+}
+.right-top a:hover {
+    text-decoration: underline;
+}
+.right-top hr {
+    margin-inline: 1px;
+    margin-block: 20px;
+}
+.optin .right form {
+    display: grid;
+    height: 190px;
+}
+.optin .right form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    background-color: white;
+    border-radius: 7px;
+}
+.optin .right form input:focus {
+    outline: solid 1px rgb(71, 90, 255);
+    box-shadow: 0px 1px 4px rgb(71, 90, 255);
+}
+.optin .right form .submit {
+    background-color: rgb(71, 90, 255);
+    margin-top: 5px;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.optin .right form .submit:hover {
+    filter: brightness(90%);
+}
+.optin .right button {
+    padding: 16px;
+    width: 190px;
+    margin-inline: 90px;
+    margin-block: 4px;
+    background-color: limegreen;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.optin .right button:hover {
+    filter: brightness(90%);
+}
+.optin .right p {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    margin-block: 30px;
+}
+.optin .right span {
+    font-weight: 600;
+}
+
+.register {
+    width: 450px;
+    height: 0px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: fixed;
+    top: 45px;
+    left: 460px;
+    transition: 0.2s;
+}
+.form2 {
+    transition: 0.2s;
+}
+.f1 {
+    display: flex;
+    justify-content: space-between;
+}
+.s1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.s2 {
+    font-size: 28px;
+    margin-top: -10px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.541);
+    cursor: pointer;
+}
+.easy {
+    font-size: 13px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.788);
+}
+hr {
+    margin-block: 15px;
+    margin-inline: -15px;
+    border-color: rgba(240, 248, 255, 0.479);
+}
+.error {
+    font-size: 13px;
+    color: red;
+    margin-bottom: 5px;
+    margin-top: -3px;
+}
+.f2 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+input {
+    border-radius: 5px;
+    border: solid 0.5mm rgba(0, 0, 0, 0.199);
+    background-color: rgba(0, 0, 0, 0.027);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input:focus {
+    outline: none;
+}
+.email {
+    width: 100%;
+}
+.pass {
+    width: 100%;
+}
+.f3 {
+    display: flex;
+    font-size: 12px;
+    padding-block: 5px;
+}
+i {
+    text-decoration: none;
+    color: black;
+}
+.f4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+select {
+    padding-block: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: 0.2mm solid rgba(0, 0, 0, 0.24);
+}
+.f4 .sel1 {
+    padding-left: 6px;
+    padding-right: 75px;
+}
+.f4 .sel2 {
+    padding-left: 6px;
+    padding-right: 24px;
+}
+.f4 .sel3 {
+    padding-inline: 6px;
+    padding-right: 65px;
+}
+.f5 {
+    display: flex;
+    font-size: 12px;
+    padding-block: 5px;
+}
+.radio {
+    display: flex;
+    justify-content: space-between;
+}
+.fi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    width: 125px;
+    height: 35px;
+    font-size: 13px;
+    border: solid 0.2mm rgba(0, 0, 0, 0.199);
+    border-radius: 5px;
+}
+.fi input {
+    margin-top: 10px;
+}
+.p1 {
+    font-size: 10px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.685);
+}
+.sign_up {
+    margin-left: 100px;
+    margin-top: 25px;
+    width: 200px;
+    background-color: rgba(0, 163, 22, 0.884);
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+.sign_up:hover {
+    filter: opacity(85%);
+}
